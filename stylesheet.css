@@ -1,0 +1,100 @@
+body{
+    font-family: 'Arial';
+    color: black;
+}
+
+
+h2{
+    color:rgb(51, 51, 130);
+    padding: px 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px 5px;
+}
+
+div{   
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+th{
+    color:rebeccapurple; 
+    padding: 20px 20px 20px 20px;
+    margin: 5px 5px 5px 5px 5px;
+}
+
+
+.title{
+    font-size: medium;
+}
+
+.section{
+    font-size: small;
+}
+
+img{
+    size: 10px, 30px;
+}
+
+.notification.warning{
+    background: rgb(247, 247, 23);
+    color:black;
+    font-weight: 600;
+    padding:5px 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px 5px;
+}
+
+
+.notification.success{
+    background: rgb(56, 152, 56);
+    color:white;
+    font-weight: 600;
+    padding:5px 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px 5px;
+}
+
+.notification.info{
+    color:white;
+    font-weight: 600;
+    background:rgb(32, 32, 148);
+}
+
+.notification.error{
+    color:white;
+    font-weight: 600;
+    background:rgb(176, 30, 30);
+}
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
